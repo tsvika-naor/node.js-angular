@@ -1,0 +1,36 @@
+:host {
+  display: block;
+  margin-top: 1rem;
+}
+mat-paginator{
+  margin-top: 1rem;
+}
+mat-spinner{
+  margin: auto;
+}
+.post-image {
+  width: 100%;
+
+}
+.post-image img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+.info-text {
+  text-align: center;
+}
+#filtersubmit {
+  position: relative;
+  z-index: 1;
+  left: -25px;
+  top: 1px;
+  color: #7B7B7B;
+  cursor:pointer;
+  width: 0;
+}
+
+
