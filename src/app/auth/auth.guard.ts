@@ -10,7 +10,7 @@ constructor(private authService: AuthService, private router: Router) {}
      Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
         const isAuth = this.authService.getIsAuth();
         if (!isAuth) {
-            this.router.navigate(['/login']);
+            this.router.navigate(['/auth/login']);
         }
         return isAuth;
         }
